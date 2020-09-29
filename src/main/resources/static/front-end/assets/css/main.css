@@ -1,0 +1,148 @@
+html * {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: normal 20px "helvetica neue", Helvetica, Arial, sans-serif !important;
+	margin: 20px;
+}
+.app-container {
+	margin: 20px;
+	padding: 15px;
+	min-width: 640px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding: 5px;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
+.user, .car {
+	margin: 15px;
+	padding: 10px;
+	background-color: #FF7707;
+	border-radius: 5px;
+}
+.car {
+	background-color: #F28542;
+}
+.left-padd-15 {
+	margin-left: 15px;
+}
+.left-padd-40 {
+	margin-left: 40px;
+}
+.left-padd-100 {
+	margin-left: 100px;
+}
+.left-padd-120 {
+	margin-left: 120px;
+}
+.select {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 15px 15px;
+}
+.select label {
+	margin: 0 15px 0 0;
+}
+.select select {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0px solid #000000;
+  border-radius: 5px;
+  background: #FF7707;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 160px;
+  font-size: 16px;
+  color: #000000;
+}
+.select select::-ms-expand {
+  display: none;
+}
+.select select:hover,
+.select select:focus {
+  color: #000000;
+  background: #FF7707;
+}
+.select select:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.select-arrow {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  width: 0px;
+  height: 0px;
+  border: solid #000000;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select-arrow,
+.select select:focus ~ .select-arrow {
+  border-color: #000000;
+}
+.select select:disabled ~ .select-arrow {
+  border-top-color: #cccccc;
+}
+.search-container {
+	margin-bottom: 20px;
+}
+.text-input {
+     padding: 10px;
+     font-size: 20px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 5px;
+     box-shadow: 0px 0px 0px rgba(66,66,66,.75);
+     text-shadow: 0px 0px 0px rgba(66,66,66,.0);
+}
+ .text-input:focus {
+     outline:none;
+}
+.text-input.long {
+	width: 600px;
+}
+.button {
+	background-color:#ff7707;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	outline: none;
+	border: 0px solid black;
+	min-width: 125px;
+}
+.button:hover {
+	background-color:#ff7707;
+	outline: none;
+	font-weight: bold;
+}
+.button:active {
+	position:relative;
+	top:1px;
+	outline: none;
+}
+
